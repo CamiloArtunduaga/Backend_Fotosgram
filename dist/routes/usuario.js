@@ -7,7 +7,7 @@ const express_1 = require("express");
 const usuario_model_1 = require("../models/usuario.model");
 const bcrypt_1 = __importDefault(require("bcrypt"));
 const token_1 = __importDefault(require("../classes/token"));
-const autenticacion_1 = require("./middlewares/autenticacion");
+const autenticacion_1 = require("../middlewares/autenticacion");
 const userRoutes = express_1.Router();
 // Referencia 
 //    userRoutes.get( '/prueba', ( req:Request, res:Response ) => {
